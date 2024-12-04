@@ -2,7 +2,7 @@ const PricingSection = () => {
   return (
     <section className="py-6 dark:bg-gray-950">
       <div className="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5">
-        <div className="flex flex-col  space-y-12">
+        <div className="flex flex-col space-y-12">
           <div className="flex gap-10 flex-col items-center">
             <div className="mx-auto max-w-3xl text-center space-y-8">
               <span className="border border-gray-200 dark:border-gray-800 px-3 py-0.5 rounded-full bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
@@ -16,7 +16,7 @@ const PricingSection = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo illum voluptatibus optio quaerat
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-8 items-center lg:grid-cols-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center lg:grid-cols-3">
             <div className="bg-white dark:bg-gray-900 p-5 sm:p-6 md:p-8 xl:p-10 border border-gray-300 dark:border-gray-800/80 md:hauto flex flex-col rounded-3xl">
               <span className="font-semibold text-2xl text-gray-800 dark:text-gray-200">
                 Starter plan

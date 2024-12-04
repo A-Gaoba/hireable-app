@@ -34,27 +34,28 @@ function HeroSection() {
             </Link>
           </div>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8 w-full">
+            <div className="grid grid-cols-2 gap-4 sm:gap-6 w-full max-w-md mx-auto">
               {/* Card 1 */}
-              <div className="bg-white dark:bg-gray-950 shadow-lg shadow-gray-200/50 dark:shadow-transparent border border-gray-100/80 dark:border-gray-900/80 p-6 rounded-lg flex flex-col justify-center items-center text-center text-gray-700 dark:text-gray-300">
-                <span className="font-semibold text-2xl sm:text-3xl lg:text-4xl text-gray-900 dark:text-white">
+              <div className="bg-white dark:bg-gray-950 shadow-md border border-gray-200 dark:border-gray-800 p-4 rounded-md flex flex-col justify-center items-center text-center text-gray-700 dark:text-gray-300">
+                <span className="font-semibold text-xl sm:text-2xl lg:text-3xl text-gray-900 dark:text-white">
                   2 Years
                 </span>
-                <span className="text-sm sm:text-base">
-                  Experiences
+                <span className="text-xs sm:text-sm lg:text-base">
+                  Experience
                 </span>
               </div>
 
               {/* Card 2 */}
-              <div className="bg-white dark:bg-gray-950 shadow-lg shadow-gray-200/50 dark:shadow-transparent border border-gray-100/80 dark:border-gray-900/80 p-6 rounded-lg flex flex-col justify-center items-center text-center text-gray-700 dark:text-gray-300">
-                <span className="font-semibold text-2xl sm:text-3xl lg:text-4xl text-gray-900 dark:text-white">
+              <div className="bg-white dark:bg-gray-950 shadow-md border border-gray-200 dark:border-gray-800 p-4 rounded-md flex flex-col justify-center items-center text-center text-gray-700 dark:text-gray-300">
+                <span className="font-semibold text-xl sm:text-2xl lg:text-3xl text-gray-900 dark:text-white">
                   4k
                 </span>
-                <span className="text-sm sm:text-base">
-                  Projects
+                <span className="text-xs sm:text-sm lg:text-base">
+                  Clients
                 </span>
               </div>
             </div>
+
           </div>
         </div>
       </section>
