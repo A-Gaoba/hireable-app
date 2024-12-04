@@ -27,10 +27,10 @@ function HeroSection() {
             and opportunities to elevate your JavaScript journey.          </p>
           <div className="flex justify-center items-center flex-wrap mx-auto gap-4">
             <Link href="#" className="flex items-center h-12 px-6 rounded-full bg-purple-600 text-white border border-purple-600">
-              Hire us Now
+              Hire me Now
             </Link>
             <Link href="#" className="flex items-center h-12 px-6 rounded-full bg-gray-100 dark:bg-gray-900 text-purple-700 dark:text-gray-300 border border-gray-200 dark:border-gray-800">
-              Learn more
+              Login
             </Link>
           </div>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center">

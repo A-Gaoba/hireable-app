@@ -1,6 +1,11 @@
 import Link from "next/link"
 
-const FooterItem = ({ text, link }) => {
+type FooterItemProps = {
+  text: string;
+  link: string;
+}
+
+const FooterItem = ({ text, link }: FooterItemProps) => {
   return (
     <li>
       <Link href={link} className="duration-200 hover:text-blue-600 dark:hover:text-blue-500">
@@ -10,7 +15,12 @@ const FooterItem = ({ text, link }) => {
   )
 }
 
-const FooterBlockItem = ({ title, items }) => {
+type FooterBlockItemProps = {
+  title: string;
+  items: { id: number, text: string, link: string }[];
+}
+
+const FooterBlockItem = ({ title, items }: FooterBlockItemProps) => {
   return (
     <div className="space-y-5">
       <h1 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
@@ -72,7 +82,7 @@ const footerBlocks = [
   },
   {
     id: 3,
-    title: "Services",
+    title: "Other Services",
     items: [
       {
         id: 1,
@@ -138,7 +148,7 @@ const FooterBlock = () => {
             <p className="max-w-xl">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores debitis ex temporibus
             </p>
-            <form action className="grid w-full relative max-w-xl">
+            <form action="#" method="post" className="grid w-full relative max-w-xl">
               <div className="flex flex-col gap-3 w-full relative">
                 <input type="email" className="w-full outline-none px-3 py-3 rounded-md bg-gray-200 dark:bg-gray-800 border border-gray-300 dark:border-gray-700" placeholder="johndoe@gmail.com" />
                 <button className="w-full py-3 sm:py-0 sm:w-max sm:absolute sm:right-1 sm:inset-y-1 px-4 text-sm flex sm:items-center justify-center outline-none bg-blue-600 text-white rounded-md">Subscribe</button>

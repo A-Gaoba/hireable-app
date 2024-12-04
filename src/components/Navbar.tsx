@@ -1,17 +1,37 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ModeToggle } from "./ModToggle";
 
 function Navbar() {
   const [openNavbar, setOpenNavbar] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
 
   const toggleNavbar = () => {
     setOpenNavbar((prevState) => !prevState);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header className="absolute left-0 top-0 w-full flex items-center h-24 z-40">
+    <header
+      className={`w-full flex items-center h-24 z-40 ${isSticky ? "fixed top-0 left-0 shadow-md" : "absolute"
+        }`}
+    >
       <nav className="relative mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex gap-x-5 justify-between items-center">
         {/* Logo Section */}
         <div className="flex items-center min-w-max">
@@ -27,13 +47,13 @@ function Navbar() {
         {/* Navbar Links */}
         <div
           className={`absolute top-full left-0 bg-white rounded-full dark:bg-gray-950 lg:bg-transparent border-b border-gray-200 dark:border-gray-800 py-8 lg:py-0 px-5 sm:px-10 md:px-12 lg:px-0 lg:border-none lg:w-max lg:space-x-16 lg:top-0 lg:relative lg:flex duration-300 lg:transition-none ease-linear ${openNavbar
-            ? "translate-y-0 opacity-100 visible"
-            : "translate-y-10 opacity-0 invisible lg:visible lg:translate-y-0 lg:opacity-100"
+              ? "translate-y-0 opacity-100 visible"
+              : "translate-y-10 opacity-0 invisible lg:visible lg:translate-y-0 lg:opacity-100"
             }`}
         >
           <ul className="flex flex-col lg:flex-row gap-6 lg:items-center text-gray-700 dark:text-gray-300 lg:w-full lg:justify-center">
             <li>
-              <Link href="#" className="px-2 transition-colors py-2.5 hover:text-purple-600">
+              <Link href="#" className="px-2 pl-6 transition-colors py-2.5 hover:text-purple-600">
                 Home
               </Link>
             </li>
@@ -54,7 +74,6 @@ function Navbar() {
             </li>
           </ul>
           <div className="flex flex-col sm:flex-row sm:items-center gap-4 lg:min-w-max mt-10 lg:mt-0">
-
             <ModeToggle />
             <Link
               href="#"
@@ -74,13 +93,11 @@ function Navbar() {
           >
             <span
               aria-hidden="true"
-              className={`h-0.5 w-6 rounded bg-gray-800 dark:bg-gray-300 transition duration-300 ${openNavbar ? "rotate-45 translate-y-[0.33rem]" : ""
-                }`}
+              className={`h-0.5 w-6 rounded bg-gray-800 dark:bg-gray-300 transition duration-300 ${openNavbar ? "rotate-45 translate-y-[0.33rem]" : ""}`}
             />
             <span
               aria-hidden="true"
-              className={`mt-1.5 h-0.5 w-6 rounded bg-gray-800 dark:bg-gray-300 transition duration-300 ${openNavbar ? "-rotate-45 -translate-y-[0.33rem]" : ""
-                }`}
+              className={`mt-1.5 h-0.5 w-6 rounded bg-gray-800 dark:bg-gray-300 transition duration-300 ${openNavbar ? "-rotate-45 -translate-y-[0.33rem]" : ""}`}
             />
           </button>
         </div>
