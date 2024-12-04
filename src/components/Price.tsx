@@ -5,7 +5,7 @@ const PricingSection = () => {
         <div className="flex flex-col  space-y-12">
           <div className="flex gap-10 flex-col items-center">
             <div className="mx-auto max-w-3xl text-center space-y-8">
-              <span className="rounded-lg bg-blue-50 dark:bg-gray-900 px-2.5 py-1 text-xs w-max mx-auto font-semibold tracking-wide text-blue-700 dark:text-white">
+              <span className="border border-gray-200 dark:border-gray-800 px-3 py-0.5 rounded-full bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
                 Pricing
               </span>
               <h1 className="text-3xl md:text-4xl xl:text-5xl text-gray-900 dark:text-white font-bold ">
@@ -63,7 +63,7 @@ const PricingSection = () => {
               </ul>
               <div className="mt-5 sm:mt-6">
                 <button className="bg-gray-800 hover:bg-opacity-90 text-white transition-colors ease-leaner h-12 rounded-full px-6
-                        w-full flex items-center gap-x-3 justify-center">
+                      w-full flex items-center gap-x-3 justify-center">
                   Get started <span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
                       <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
@@ -134,7 +134,7 @@ const PricingSection = () => {
               </ul>
               <div className="mt-5 sm-mt6">
                 <button className="bg-white hover:opacity-90 text-gray-900 transition-colors ease-leaner h-12 rounded-full px-6
-                        w-full flex items-center gap-x-3 justify-center">
+                      w-full flex items-center gap-x-3 justify-center">
                   Get started <span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
                       <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
@@ -189,7 +189,7 @@ const PricingSection = () => {
               </ul>
               <div className="mt-5 sm:mt-6">
                 <button className="bg-gray-800 hover:bg-opacity-90 text-white transition-colors ease-leaner h-12 rounded-full px-6
-                        w-full flex items-center gap-x-3 justify-center">
+                      w-full flex items-center gap-x-3 justify-center">
                   Get started <span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
                       <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
