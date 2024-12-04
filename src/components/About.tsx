@@ -2,7 +2,10 @@ import Image from 'next/image';
 
 const About = () => {
   return (
-    <section className="py-6 dark:bg-gray-950">
+    <section className="py-6 dark:bg-gray-950 flex flex-col justify-center items-center">
+      <span className="rounded-lg bg-blue-50 dark:bg-gray-900 px-2.5 py-1 text-xs w-max mx-auto font-semibold tracking-wide text-blue-700 dark:text-white">
+        About
+      </span>
       <div className="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col md:flex-row gap-16">
         {/* Left Image Section */}
         <div className="flex md:flex-1">

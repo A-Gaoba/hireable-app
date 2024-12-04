@@ -5,7 +5,7 @@ const PricingSection = () => {
         <div className="flex flex-col  space-y-12">
           <div className="flex gap-10 flex-col items-center">
             <div className="mx-auto max-w-3xl text-center space-y-8">
-              <span className="border border-gray-200 dark:border-gray-800 px-3 py-0.5 rounded-full bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
+              <span className="rounded-lg bg-blue-50 dark:bg-gray-900 px-2.5 py-1 text-xs w-max mx-auto font-semibold tracking-wide text-blue-700 dark:text-white">
                 Pricing
               </span>
               <h1 className="text-3xl md:text-4xl xl:text-5xl text-gray-900 dark:text-white font-bold ">
