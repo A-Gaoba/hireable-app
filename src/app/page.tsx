@@ -5,6 +5,7 @@ import About from '../components/About'
 import PricingSection from '@/components/Price'
 import Services from '@/components/Services'
 import TestimonialSection from '@/components/Testimonial'
+import Contact from '@/components/Contact'
 
 function page() {
   return (
@@ -14,6 +15,7 @@ function page() {
       <Services />
       <PricingSection />
       <TestimonialSection />
+      <Contact/>
     </div>
   )
 }
