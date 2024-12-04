@@ -111,7 +111,7 @@ const FooterBlock = () => {
         <div className="w-full text-gray-700 dark:text-gray-300 grid grid-cols-2 lg:grid-cols-4 gap-8 pb-4 border-b border-b-gray-200 dark:border-b-gray-800">
           <div className="flex">
             <Link href="#">
-              <span className="text-transparent bg-clip-text bg-gradient-to-tr from-blue-800 to-indigo-400 font-bold text-2xl">H</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-tr from-purple-600 to-indigo-400 font-bold text-2xl">H</span>
               ireable-Js
             </Link>
           </div>
@@ -151,7 +151,7 @@ const FooterBlock = () => {
             <form action="#" method="post" className="grid w-full relative max-w-xl">
               <div className="flex flex-col gap-3 w-full relative">
                 <input type="email" className="w-full outline-none px-3 py-3 rounded-md bg-gray-200 dark:bg-gray-800 border border-gray-300 dark:border-gray-700" placeholder="johndoe@gmail.com" />
-                <button className="w-full py-3 sm:py-0 sm:w-max sm:absolute sm:right-1 sm:inset-y-1 px-4 text-sm flex sm:items-center justify-center outline-none bg-blue-600 text-white rounded-md">Subscribe</button>
+                <button className="w-full py-3 sm:py-0 sm:w-max sm:absolute sm:right-1 sm:inset-y-1 px-4 text-sm flex sm:items-center justify-center outline-none bg-purple-600 text-white rounded-md">Subscribe</button>
               </div>
             </form>
           </div>

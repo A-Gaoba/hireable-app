@@ -109,7 +109,7 @@ const TestimonialSection = () => {
                 </button>
                 <div className="flex w-max min-w-max items-center">
                   <div className="flex items-center gap-1 border-0 bg-transparent">
-                    <span className="cursor-pointer w-4 h-2 rounded-full bg-blue-600 transition border-none" />
+                    <span className="cursor-pointer w-4 h-2 rounded-full bg-purple-600 transition border-none" />
                     <span className="cursor-pointer w-2 h-2 rounded-full bg-gray-400 dark:bg-gray-800 transition ease-linear border-none" />
                     <span className="cursor-pointer w-2 h-2 rounded-full bg-gray-400 dark:bg-gray-800 transition ease-linear border-none" />
                   </div>

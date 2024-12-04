@@ -29,7 +29,7 @@ const About = () => {
           <div className="grid sm:grid-cols-2 gap-6">
             {/* Mission */}
             <div className="p-5 sm:p-6 lg:p-8 space-y-6 rounded-3xl bg-neutral-100 dark:bg-gray-950 border border-neutral-200 dark:border-neutral-800">
-              <span className="rounded-xl bg-neutral-200 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 w-max p-3 flex">
+              <span className="rounded-xl bg-purple-600 text-neutral-800 dark:text-neutral-200 w-max p-3 flex">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -53,7 +53,7 @@ const About = () => {
 
             {/* Vision */}
             <div className="p-5 sm:p-6 lg:p-8 space-y-6 rounded-3xl bg-neutral-100 dark:bg-gray-950 border border-neutral-200 dark:border-neutral-800">
-              <span className="rounded-xl bg-neutral-200 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 w-max p-3 flex">
+              <span className="rounded-xl bg-purple-600 text-neutral-800 dark:text-neutral-200 w-max p-3 flex">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

@@ -31,7 +31,7 @@ interface ServiceCardProps {
 const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, icon }) => {
   return (
     <div className="flex flex-col p-5 xl:p-7 space-y-3 rounded-lg shadow-md bg-neutral-100 dark:bg-gray-950 border border-neutral-200 dark:border-neutral-800">
-      <span className="text-blue-600 dark:text-blue-400">{iconRender(icon)}</span>
+      <span className="text-purple-600">{iconRender(icon)}</span>
       <h2 className="text-xl font-semibold text-gray-900 dark:text-white">{title}</h2>
       <p className="text-gray-700 dark:text-gray-300 text-justify line-clamp-2">{description}</p>
     </div>
