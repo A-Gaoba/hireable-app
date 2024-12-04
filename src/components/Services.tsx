@@ -78,7 +78,7 @@ const services: Service[] = [
 
 const Services: React.FC = () => {
   return (
-    <section className="py-12 dark:bg-gray-950">
+    <section className="py-6 dark:bg-gray-950">
       <div className="max-w-7xl mx-auto dark:bg-gray-950">
         <div className="flex flex-col space-y-16 px-5 sm:px-16 md:px-20 lg:px-28 py-8 dark:bg-gray-950 rounded-lg">
           <div className="flex flex-col justify-center text-center mx-auto md:max-w-3xl space-y-5">
