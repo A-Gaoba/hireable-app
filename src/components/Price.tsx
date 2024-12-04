@@ -1,6 +1,6 @@
 const PricingSection = () => {
   return (
-    <section className="py-16 bg-gray-50 dark:bg-gray-950">
+    <section className="py-6 dark:bg-gray-950">
       <div className="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5">
         <div className="flex flex-col  space-y-12">
           <div className="flex gap-10 flex-col items-center">
