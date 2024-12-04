@@ -26,7 +26,7 @@ function Navbar() {
 
         {/* Navbar Links */}
         <div
-          className={`absolute top-full left-0 bg-white dark:bg-gray-950 lg:bg-transparent border-b border-gray-200 dark:border-gray-800 py-8 lg:py-0 px-5 sm:px-10 md:px-12 lg:px-0 lg:border-none lg:w-max lg:space-x-16 lg:top-0 lg:relative lg:flex duration-300 lg:transition-none ease-linear ${openNavbar
+          className={`absolute top-full left-0 bg-white rounded-full dark:bg-gray-950 lg:bg-transparent border-b border-gray-200 dark:border-gray-800 py-8 lg:py-0 px-5 sm:px-10 md:px-12 lg:px-0 lg:border-none lg:w-max lg:space-x-16 lg:top-0 lg:relative lg:flex duration-300 lg:transition-none ease-linear ${openNavbar
             ? "translate-y-0 opacity-100 visible"
             : "translate-y-10 opacity-0 invisible lg:visible lg:translate-y-0 lg:opacity-100"
             }`}
